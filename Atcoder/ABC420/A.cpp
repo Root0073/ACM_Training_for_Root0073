@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-int main() {
+#define int long long
+signed main() {
 	int n, q;
 	cin >> n >> q;
 	vector<int> a(n), b(n);
