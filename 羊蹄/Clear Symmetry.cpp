@@ -14,6 +14,10 @@ int main() {
 	//1 0 1 0 1
 	//0 1 0 1 0
 	//8 - 13
+	if(x == 3) {
+		cout << 5 << endl;
+		return 0;
+	}
 	vector<int> a = {1, 5, 13, 25, 41, 61, 85, 113};
 	for(int i = 0; i < 8; i++) {
 		if(x > a[i]) continue;
@@ -22,4 +26,5 @@ int main() {
 			return 0;
 		}
 	}
+
 }
