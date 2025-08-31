@@ -6,6 +6,11 @@ signed main() {
     //AABABB
     //ABBBAA
     //AAABABBB
+    //可以记住一个结论：对于多个单调递增的式子想最小化每个sigma(abs(x - y))只有当
+    //x和y按照严格一一对应递增的关系才行
+    //1 3 5 7
+    //1 2 6 8
+    //类似于这种
     int n;
     cin >> n;
     string s;
