@@ -2,6 +2,8 @@
 #define int long long
 using namespace std;
 #define inf 0x3f3f3f3f3f3f3f3f
+//这个题目的核心思想就是去算相对距离，问题转变为如何通过那个一段一段的信息算出有多少个重合的点
+//因为要相对距离的横坐标和纵坐标都为0，列两个方程解方程即可，最后有多少个答案就看解的状态
 struct node {
 	int r, c;
 	node operator + (const node& a) {return node{r + a.r, c + a.c};};
